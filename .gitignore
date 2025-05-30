@@ -1,0 +1,236 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+sentiment-analyzer/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Machine Learning & Data Science specific
+# Datasets
+*.csv
+*.json
+*.xlsx
+*.xls
+*.parquet
+*.pickle
+*.pkl
+*.h5
+*.hdf5
+
+# Model files
+*.model
+*.pkl
+*.joblib
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Trained models directory
+models/
+saved_models/
+checkpoints/
+
+# Data directories
+data/
+datasets/
+raw_data/
+processed_data/
+
+# Logs and outputs
+logs/
+outputs/
+results/
+plots/
+figures/
+
+# NLTK data (if downloaded locally)
+nltk_data/
+
+# Hugging Face cache
+.cache/
+transformers_cache/
+
+# TensorBoard logs
+tensorboard_logs/
+tb_logs/
+
+# MLflow tracking
+mlruns/
+
+# Weights & Biases
+wandb/
+
+# Configuration files with sensitive data
+config.ini
+secrets.json
+.secrets
+
+# IDE specific files
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Atom
+.atom/
+
+# System files
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# API keys and credentials
+api_keys.txt
+credentials.json
+.api_key
+token.txt
+
+# Custom additions for sentiment analysis project
+# Add your specific files/folders here
+# example_predictions.txt
+# test_results.csv
