@@ -1,0 +1,34 @@
+# Essential dependencies for Streamlit deployment
+streamlit>=1.28.0
+pandas>=1.5.0
+numpy>=1.21.0
+
+# VADER Sentiment Analysis (based on your code)
+vaderSentiment>=3.3.2
+nltk>=3.8.0
+
+# Data Visualization
+matplotlib>=3.5.0
+seaborn>=0.12.0
+plotly>=5.0.0
+
+# Progress tracking (since you're using ipywidgets)
+tqdm>=4.64.0
+
+# Text processing utilities
+textblob>=0.17.0
+wordcloud>=1.9.0
+
+# Machine Learning (if you're using any ML models)
+scikit-learn>=1.0.0
+
+# File handling
+openpyxl>=3.1.0
+
+# Additional text utilities
+regex>=2023.0.0
+contractions>=0.1.0
+
+# Optional: Only add if you're using these
+# spacy>=3.4.0
+# transformers>=4.21.0
